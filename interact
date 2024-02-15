@@ -1,0 +1,2 @@
+#!/bin/bash
+srun -p astro --time=2:00:00 --mem=20G --pty /bin/bash
