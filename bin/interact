@@ -1,2 +1,3 @@
 #!/bin/bash
-srun -p astro --time=2:00:00 --mem=20G --pty /bin/bash
+#srun -p astro --time=2:00:00 --mem=20G --pty /bin/bash # old command for MOX
+srun -A astro -p compute-bigmem -N 1 -c 4 --time=2:00:00 --mem=20G --pty /bin/bash
