@@ -1,4 +1,4 @@
-#!~/anaconda3/bin/python
+#!/gscratch/astro/yoachim/miniconda3/envs/rubin/envs/rubin2/bin/python
 
 from astropy.coordinates import EarthLocation
 from astropy.utils.data import clear_download_cache
